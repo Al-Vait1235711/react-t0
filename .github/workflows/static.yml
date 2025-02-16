@@ -35,11 +35,12 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-          cache-dependency-path: './fe101/package-lock.json'
       - name: Install dependencies
         run: npm ci
+        working-directory: './fe101'
       - name: Build
         run: npm run build
+        working-directory: './fe101'
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
