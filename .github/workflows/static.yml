@@ -37,6 +37,7 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+        cache-dependency-path: './fe101/package-lock.json'
       - name: Build
         run: npm run build
       - name: Setup Pages
