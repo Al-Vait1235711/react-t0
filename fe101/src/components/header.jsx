@@ -10,7 +10,7 @@ export default function AppHeader(){
     return(
         <Navbar expand="sm" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Cubicx</Navbar.Brand>
+        <Navbar.Brand href="#home">SomeLogo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
