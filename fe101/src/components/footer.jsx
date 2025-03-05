@@ -23,7 +23,7 @@ function goTop(){
 
     return(
         <Container fluid>
-            <div className="copyright">&copy; 2025 Cubicx. All Rights Reserved</div>
+            <div className="copyright">&copy; 2025 SomeCompany. All Rights Reserved</div>
             <div className="socials">
                 <ul>
                     <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
